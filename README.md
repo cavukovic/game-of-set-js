@@ -1,4 +1,4 @@
-# The Game of Set in Plain JavaScript and CSS
+# The Game of Set in Vanilla JavaScript and CSS
 
 This program creates a local web page version of the game of set. It is written using javascript, html, and css. The game can be loaded with the live server extension on visual studio code or by starting a live local web server at the root of the project. 
 
