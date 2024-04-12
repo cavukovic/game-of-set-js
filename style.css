@@ -1,0 +1,90 @@
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  25% {
+    color: blue;
+  }
+  75% {
+    color: green;
+  }
+  100% {
+    color: red;
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  animation: color-change 3s infinite;
+  font-weight: bold;
+  font-size: xx-large;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+  text-align: center;
+}
+
+.img-element {
+  width: 320px;
+  height: 380px;
+  padding: 10px;
+}
+
+.score-table{
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  font-size: x-large;
+  border-collapse: collapse;
+}
+
+.score-table-element{
+  text-align: center;
+  border: 1px solid black;
+}
+
+.score-table-head{
+  padding: 5px;
+  border: 1px solid black;
+  color: white;
+  background-color: lightslategray;
+}
+
+.button {
+  color: white;
+  background-color: lightslategray;
+  border: none;
+  border-radius: 4px;
+  padding: 9px 18px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#draw-button {
+  position: absolute;
+  top: 65px;
+  right: 130px;
+}
+
+#end-button {
+  position: absolute;
+  top: 65px;
+  right: 30px;
+}
